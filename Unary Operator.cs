@@ -10,34 +10,21 @@ namespace IntroductiontoCsharp
     {
         static void Main(string[] args)
         {
-            int a=10, b;
-            //post Increamnet example
-            //b is assigned only 10
-            //a is not updated yet
-            b = a++;
-            //a becomes 11
-            Console.WriteLine("a is :{0} and b is :{1}",a,b);
-            //post decreament example
-            //b is assigned 11 only a is not updated yet
-            b = a--;
-            //a becomes 10
-            Console.WriteLine("a is {0} and b is {1}", a, b);
-            // pre-increment example:
-            // b is assigned 11 now since a
-            // is updated here itself
-            b= ++a;
+            int x = 5, y = 10, result;
 
-            // a and b have same values = 11
-            Console.WriteLine("a is {0} and res is {1}", a, b);
+            // To find which value is greater
+            // Using Conditional Operator
+            result = x > y ? x : y;
 
+            // To display the result 
+            Console.WriteLine("Result: " + result);
 
-            // pre-decrement example:
-            // res is assigned 10 only since
-            // a is updated here itself
-            b = --a;
+            // To find which value is greater
+            // Using Conditional Operator
+            result = x < y ? x : y;
 
-            // a and res have same values = 10
-            Console.WriteLine("a is {0} and res is {1}", a, b);
+            // To display the result
+            Console.WriteLine("Result: " + result);
             Console.ReadLine();
         }
     }
