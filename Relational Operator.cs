@@ -10,32 +10,19 @@ namespace IntroductiontoCsharp
     {
         static void Main(string[] args)
         {
-            bool result;
-            int x = 5, y = 10;
+            bool a = true, b = false, result;
 
-            // Equal to Operator
-            result = (x == y);
-            Console.WriteLine("Equal to Operator: " + result);
+            // AND operator //both condition True then conditon true
+            result = a && b;
+            Console.WriteLine("AND Operator: " + result);
 
-            // Greater than Operator
-            result = (x > y);
-            Console.WriteLine("Greater than Operator: " + result);
+            // OR operator //any one condition is true output is true
+            result = a || b;
+            Console.WriteLine("OR Operator: " + result);
 
-            // Less than Operator
-            result = (x < y);
-            Console.WriteLine("Less than Operator: " + result);
-
-            // Greater than Equal to Operator
-            result = (x >= y);
-            Console.WriteLine("Greater than or Equal to: " + result);
-
-            // Less than Equal to Operator
-            result = (x <= y);
-            Console.WriteLine("Lesser than or Equal to: " + result);
-
-            // Not Equal To Operator
-            result = (x != y);
-            Console.WriteLine("Not Equal to Operator: " + result);
+            // NOT operator change the input
+            result = !a;
+            Console.WriteLine("NOT Operator: " + result);
             Console.ReadLine();
         }
     }
