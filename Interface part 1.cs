@@ -39,7 +39,7 @@ namespace Csharpprograms
     When implementing an interface in a class, implement all the abstract methods declared
     in the interface.
     If all the methods are not implemented, the class cannot be compiled.
-    The methods implemented in the class should be declared with the same name signature as defined in the interface.
+    The methods implemented in the class should be declared with the same name signature as defined in the interface
 */
 
     class Program
